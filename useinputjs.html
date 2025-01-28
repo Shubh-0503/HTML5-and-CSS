@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function sum(){
+            let a,b,sum;
+        a=parseInt(document.getElementById("n1").value);
+        b=parseInt(document.getElementById("n2").value);
+        sum=a+b;
+        document.getElementById("ans").value=sum;
+
+
+
+        }
+        
+    </script>
+</head>
+<body>
+    <p>
+        Enter the first number:<input type="text" id="n1">
+    </p>
+    <p>
+        Enter the second number:<input type="text" id="n2">
+
+
+    </p>
+    <button onClick="sum()">ADD</button>
+    <p >Sum=<input type="text" id="ans"></p>
+
+
+    
+</body>
+</html>
